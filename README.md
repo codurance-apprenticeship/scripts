@@ -1,0 +1,1 @@
+A project to store useful scripts needed during the apprenticeship - and maybe even after that :)
