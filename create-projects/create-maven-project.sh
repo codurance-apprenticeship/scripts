@@ -7,7 +7,7 @@ if [ -z "$PROJECT_NAME" ]; then
 fi
 
 echo Creating Maven project in $PWD/$PROJECT_NAME...
-mkdir -p $PROJECT_NAME/src/{main/com/$USER,test}/{java/com/$USER,resources}
+mkdir -p $PROJECT_NAME/src/{main,test}/{java/com/$USER,resources}
 
 echo "<project>
     <modelVersion>4.0.0</modelVersion>
