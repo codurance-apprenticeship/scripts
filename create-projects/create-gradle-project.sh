@@ -35,11 +35,11 @@ ext {
 }
 
 dependencies {
-    testImplementation \"org.mockito:mockito-junit-jupiter:\${mockitoVersion}\"
     testImplementation \"org.junit.jupiter:junit-jupiter-api:\${junitVersion}\"
+    testImplementation \"org.junit.jupiter:junit-jupiter-params:\${junitVersion}\"
     testRuntimeOnly \"org.junit.jupiter:junit-jupiter-engine:\${junitVersion}\"
-    testCompile \"org.junit.jupiter:junit-jupiter-params:\${junitVersion}\"
-    testCompile \"org.assertj:assertj-core:\${assertjVersion}\"
+    testImplementation \"org.mockito:mockito-junit-jupiter:\${mockitoVersion}\"
+    testImplementation \"org.assertj:assertj-core:\${assertjVersion}\"
 }
 " > $PROJECT_NAME/build.gradle
 
