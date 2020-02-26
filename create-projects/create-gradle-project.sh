@@ -36,6 +36,7 @@ ext {
 
 dependencies {
     testImplementation \"org.junit.jupiter:junit-jupiter-api:\${junitVersion}\"
+
     // pick your desired test flavors
     /*
     testImplementation \"org.junit.jupiter:junit-jupiter-params:\${junitVersion}\"
@@ -43,6 +44,7 @@ dependencies {
     testImplementation \"org.mockito:mockito-junit-jupiter:\${mockitoVersion}\"
     */
     testRuntimeOnly \"org.junit.jupiter:junit-jupiter-engine:\${junitVersion}\"
+
 }
 " > $PROJECT_NAME/build.gradle
 
