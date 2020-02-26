@@ -36,10 +36,15 @@ ext {
 
 dependencies {
     testImplementation \"org.junit.jupiter:junit-jupiter-api:\${junitVersion}\"
+
+    // pick your desired test flavors
+    /*
     testImplementation \"org.junit.jupiter:junit-jupiter-params:\${junitVersion}\"
-    testRuntimeOnly \"org.junit.jupiter:junit-jupiter-engine:\${junitVersion}\"
-    testImplementation \"org.mockito:mockito-junit-jupiter:\${mockitoVersion}\"
     testImplementation \"org.assertj:assertj-core:\${assertjVersion}\"
+    testImplementation \"org.mockito:mockito-junit-jupiter:\${mockitoVersion}\"
+    */
+    testRuntimeOnly \"org.junit.jupiter:junit-jupiter-engine:\${junitVersion}\"
+
 }
 " > $PROJECT_NAME/build.gradle
 
