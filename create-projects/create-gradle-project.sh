@@ -14,7 +14,7 @@ echo "plugins {
     id 'com.adarshr.test-logger' version '1.7.0'
 }
 
-sourceCompatibility = 1.8
+sourceCompatibility = 11
 
 repositories {
     mavenCentral()
